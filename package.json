@@ -4,7 +4,7 @@
   "type": "module",
   "homepage": "https://kokunyan.github.io/outliers-visualization",
   "scripts": {
-    "build": "react-router build && cp public/404.html build/client/404.html",
+    "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc"
